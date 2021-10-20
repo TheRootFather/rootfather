@@ -1,4 +1,4 @@
-# /usr/bin/sh
+#!/usr/bin/sh
 
 # yay
 git clone https://aur.archlinux.org/yay.git
