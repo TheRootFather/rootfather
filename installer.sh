@@ -41,6 +41,7 @@ sudo cp kittyfetch /usr/bin/
 cd ..
 
 # neofetch
+yay -R neofetch
 sudo cp /neofetch/neofetch /usr/bin/
 
 # gimpshop-reloaded
