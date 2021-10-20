@@ -46,6 +46,8 @@ sudo cp /neofetch/neofetch /usr/bin/
 # gimpshop-reloaded
 git clone git://github.com/WalkingGarbage/gimpshop-reloaded
 rm gimpshop-reloaded/gimprc
+mkdir ~/.config/GIMP/
+mkdir ~/.config/GIMP/2.10/
 cp -r gimpshop-reloaded/* ~/.config/GIMP/2.10/
 rm -rf gimpshop-reloaded
 
