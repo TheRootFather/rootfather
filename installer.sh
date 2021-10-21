@@ -41,7 +41,8 @@ sudo cp kittyfetch /usr/bin/
 cd ..
 
 # neofetch
-yay -R neofetch
+yay -R neofetch --noconfirm
+
 sudo cp /neofetch/neofetch /usr/bin/
 
 # gimpshop-reloaded
@@ -51,6 +52,11 @@ mkdir ~/.config/GIMP/
 mkdir ~/.config/GIMP/2.10/
 cp -r gimpshop-reloaded/* ~/.config/GIMP/2.10/
 rm -rf gimpshop-reloaded
+
+# wallpapers
+git clone https://github.com/TheRootFather/wallpapers
+mv wallpapers/*.jpg ~/Pictures/
+rm -rf wallpapers/
 
 # ohmyfish
 curl -L https://get.oh-my.fish | fish
