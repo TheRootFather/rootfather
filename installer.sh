@@ -11,7 +11,7 @@ rm -rf yay/
 sudo sh -c "cat repo.txt >> /etc/pacman.conf"
 
 # packages
-sudo pacman -R neofetch
+sudo pacman -R neofetch --noconfirm
 
 sudo pacman -Syyu --noconfirm
 
@@ -41,9 +41,7 @@ cp -r fish/ ~/.config/
 cp -r nvim/ ~/.config/
 
 chmod +x mon
-chmod +x kittyfetch
 sudo cp mon /usr/bin/
-sudo cp kittyfetch /usr/bin/
 
 cd ..
 
