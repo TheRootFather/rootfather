@@ -4,23 +4,19 @@
 
 RootFather is a project made to install some packages after the installation of an arch-based linux distro.
 
-
-
 ## Current features
 
 - AUR Helper: yay
 
 - Fish Shell
 
-- Packages installed: see full list here
+- Packages installed: see full list [here]([rootfather/packages at main · TheRootFather/rootfather · GitHub](https://github.com/TheRootFather/rootfather/blob/main/packages))
 
 - Custom arch repository
 
 - Custom configs: see full list here
 
 - Fonts installed: SauceCodePro Nerd Font, ttf-unifont
-
-
 
 ## To-do
 
@@ -37,8 +33,6 @@ RootFather is a project made to install some packages after the installation of 
 - Make the installatoin process easier to read (maybe with ncurses?)
 
 - Add more packages to the rootfather-arch-repo
-
-
 
 ## Installation
 
