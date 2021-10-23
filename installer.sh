@@ -11,6 +11,8 @@ rm -rf yay/
 sudo sh -c "cat repo.txt >> /etc/pacman.conf"
 
 # packages
+sudo pacman -R neofetch
+
 sudo pacman -Syyu --noconfirm
 
 yay -S --needed - < packages --noconfirm
