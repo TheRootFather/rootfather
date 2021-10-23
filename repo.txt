@@ -1,0 +1,5 @@
+
+[rootfather-arch-repo]
+SigLevel = Optional DatabaseOptional
+Server = https://therootfather.github.io/$repo/$arch
+

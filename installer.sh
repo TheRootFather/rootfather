@@ -3,9 +3,13 @@
 # yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 rm -rf yay/
+
+# repo
+
+sudo cat repo.txt >> /etc/pacman.conf
 
 # packages
 yay -S --needed - < packages --noconfirm
