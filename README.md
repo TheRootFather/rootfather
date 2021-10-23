@@ -10,7 +10,7 @@ RootFather is a project made to install some packages after the installation of 
 
 - Fish Shell
 
-- Packages installed: see full list [here]([rootfather/packages at main · TheRootFather/rootfather · GitHub](https://github.com/TheRootFather/rootfather/blob/main/packages))
+- Packages installed: see full list [here](https://github.com/TheRootFather/rootfather/blob/main/packages)
 
 - Custom arch repository
 
