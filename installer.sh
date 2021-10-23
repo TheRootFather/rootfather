@@ -8,9 +8,11 @@ cd ..
 rm -rf yay/
 
 # repo
-sudo cat repo.txt >> /etc/pacman.conf
+sudo sh -c "cat repo.txt >> /etc/pacman.conf"
 
 # packages
+sudo pacman -Syyu --noconfirm
+
 yay -S --needed - < packages --noconfirm
 
 chsh -s /usr/bin/fish
@@ -42,11 +44,6 @@ sudo cp mon /usr/bin/
 sudo cp kittyfetch /usr/bin/
 
 cd ..
-
-# neofetch
-yay -R neofetch --noconfirm
-
-sudo cp /neofetch/neofetch /usr/bin/
 
 # gimpshop-reloaded
 git clone git://github.com/WalkingGarbage/gimpshop-reloaded

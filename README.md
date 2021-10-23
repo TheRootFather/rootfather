@@ -1,4 +1,4 @@
-# rootfather
+# RootFather
 
 ## Description
 
@@ -12,9 +12,17 @@ RootFather is a project made to install some packages after the installation of 
 
 - Packages installed: see full list [here](https://github.com/TheRootFather/rootfather/blob/main/packages)
 
-- Custom arch repository
+- Custom arch repository: [rootfather-arch-repo](https://github.com/TheRootFather/rootfather-arch-repo)
 
-- Custom configs: see full list here
+- Custom configs:
+  
+  - neovim
+  
+  - gimp
+  
+  - alacritty
+  
+  - fish
 
 - Fonts installed: SauceCodePro Nerd Font, ttf-unifont
 
