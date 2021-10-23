@@ -8,7 +8,6 @@ cd ..
 rm -rf yay/
 
 # repo
-
 sudo cat repo.txt >> /etc/pacman.conf
 
 # packages
