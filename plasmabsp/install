@@ -1,0 +1,4 @@
+cp -r desktoptheme/RootFather/ ~/.local/share/plasma/desktoptheme/
+cp -r plasmoids/ ~./local/share/plasma/
+cp kdeglobals ~/.kde4/share/config/
+
