@@ -56,6 +56,7 @@ rm -rf gimpshop-reloaded
 # wallpapers
 git clone https://github.com/TheRootFather/wallpapers
 mv wallpapers/*.jpg ~/Pictures/
+mv wallpapers/*.png ~/Pictures/
 rm -rf wallpapers/
 
 # ohmyfish
